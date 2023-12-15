@@ -1,0 +1,21 @@
+$breakpointTablet: 769px;
+
+$levelColors: (
+  "inactive": #c1bfbf,
+  "good": #18f26f,
+  "moderate": #e3f218,
+  "unhealthy-sensitive": #f29421,
+  "unhealthy": #f0510d,
+  "very-unhealthy": #da6dcf,
+  "hazardous": #993366,
+);
+
+$baseFont: "Jost", sans-serif;
+
+$desktop-max-width: 800px;
+
+$bottom-nav-height: 180px;
+$bottom-nav-globe-radius: 18px;
+$bottom-nav-height-outer: $bottom-nav-height + 15;
+$map-marker-radius: 36px;
+$bottom-nav-height: 90px;

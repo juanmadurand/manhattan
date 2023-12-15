@@ -1,0 +1,380 @@
+[
+  {
+    "stop_id": 4,
+    "stop_code": 2319806,
+    "stop_name": "Hunters Point South",
+    "stop_lat": 40.741838,
+    "stop_lon": -73.961322
+  },
+  {
+    "stop_id": 8,
+    "stop_code": 2319809,
+    "stop_name": "South Williamsburg",
+    "stop_lat": 40.70857,
+    "stop_lon": -73.970169
+  },
+  {
+    "stop_id": 11,
+    "stop_code": 2319817,
+    "stop_name": "Atlantic Ave/BBP Pier 6",
+    "stop_lat": 40.692315,
+    "stop_lon": -74.002073
+  },
+  {
+    "stop_id": 16,
+    "stop_code": "",
+    "stop_name": "Beach Channel Dr/B. 108th St",
+    "stop_lat": 40.583846,
+    "stop_lon": -73.831658
+  },
+  {
+    "stop_id": 17,
+    "stop_code": 2319805,
+    "stop_name": "East 34th Street",
+    "stop_lat": 40.743912,
+    "stop_lon": -73.970731
+  },
+  {
+    "stop_id": 18,
+    "stop_code": 2319807,
+    "stop_name": "Greenpoint",
+    "stop_lat": 40.731365,
+    "stop_lon": -73.963617
+  },
+  {
+    "stop_id": 19,
+    "stop_code": 2319808,
+    "stop_name": "North Williamsburg",
+    "stop_lat": 40.720838,
+    "stop_lon": -73.964902
+  },
+  {
+    "stop_id": 20,
+    "stop_code": 2319810,
+    "stop_name": "Dumbo/Fulton Ferry",
+    "stop_lat": 40.70354,
+    "stop_lon": -73.995763
+  },
+  {
+    "stop_id": 23,
+    "stop_code": 2319815,
+    "stop_name": "Bay Ridge",
+    "stop_lat": 40.639858,
+    "stop_lon": -74.03813
+  },
+  {
+    "stop_id": 24,
+    "stop_code": 2319816,
+    "stop_name": "Red Hook/Atlantic Basin",
+    "stop_lat": 40.680957,
+    "stop_lon": -74.013358
+  },
+  {
+    "stop_id": 25,
+    "stop_code": 2319819,
+    "stop_name": "Roosevelt Island",
+    "stop_lat": 40.756811,
+    "stop_lon": -73.952482
+  },
+  {
+    "stop_id": 37,
+    "stop_code": "",
+    "stop_name": "Beach Channel Dr/B. 54th St",
+    "stop_lat": 40.595183,
+    "stop_lon": -73.784752
+  },
+  {
+    "stop_id": 39,
+    "stop_code": "",
+    "stop_name": "Rockaway Beach Blvd/B. 86th St",
+    "stop_lat": 40.587708,
+    "stop_lon": -73.811105
+  },
+  {
+    "stop_id": 48,
+    "stop_code": "",
+    "stop_name": "Rockaway Point Blvd/B. 169th St",
+    "stop_lat": 40.567116,
+    "stop_lon": -73.882607
+  },
+  {
+    "stop_id": 49,
+    "stop_code": "",
+    "stop_name": "Jacob Riis Park Road/Bath House",
+    "stop_lat": 40.566157,
+    "stop_lon": -73.872477
+  },
+  {
+    "stop_id": 50,
+    "stop_code": "",
+    "stop_name": "Rockaway Beach Blvd/ B. 149th St",
+    "stop_lat": 40.569285,
+    "stop_lon": -73.863808
+  },
+  {
+    "stop_id": 51,
+    "stop_code": "",
+    "stop_name": "Rockaway Beach Blvd/B. 135th St",
+    "stop_lat": 40.573879,
+    "stop_lon": -73.85291
+  },
+  {
+    "stop_id": 52,
+    "stop_code": "",
+    "stop_name": "Rockaway Beach Blvd/B. 127th St",
+    "stop_lat": 40.576657,
+    "stop_lon": -73.846073
+  },
+  {
+    "stop_id": 53,
+    "stop_code": "",
+    "stop_name": "Rockaway Beach Blvd/B. 115th St",
+    "stop_lat": 40.579947,
+    "stop_lon": -73.836462
+  },
+  {
+    "stop_id": 61,
+    "stop_code": "",
+    "stop_name": "Beach Channel Dr/B. 41st St",
+    "stop_lat": 40.595828,
+    "stop_lon": -73.772574
+  },
+  {
+    "stop_id": 62,
+    "stop_code": "",
+    "stop_name": "Beach Channel Dr/B. 36th St",
+    "stop_lat": 40.596261,
+    "stop_lon": -73.769134
+  },
+  {
+    "stop_id": 66,
+    "stop_code": "",
+    "stop_name": "East 34th St & 2nd Ave",
+    "stop_lat": 40.744949,
+    "stop_lon": -73.976168
+  },
+  {
+    "stop_id": 67,
+    "stop_code": "",
+    "stop_name": "East 34th St & 3rd Ave",
+    "stop_lat": 40.745459,
+    "stop_lon": -73.97775
+  },
+  {
+    "stop_id": 68,
+    "stop_code": "",
+    "stop_name": "East 34th St & Park Ave",
+    "stop_lat": 40.747236,
+    "stop_lon": -73.981553
+  },
+  {
+    "stop_id": 74,
+    "stop_code": "",
+    "stop_name": "3rd Ave & East 34th St",
+    "stop_lat": 40.745955,
+    "stop_lon": -73.978448
+  },
+  {
+    "stop_id": 82,
+    "stop_code": "",
+    "stop_name": "Lexington Ave & East 46th St",
+    "stop_lat": 40.75428,
+    "stop_lon": -73.974084
+  },
+  {
+    "stop_id": 83,
+    "stop_code": "",
+    "stop_name": "Lexington Ave & East 42nd St",
+    "stop_lat": 40.751339,
+    "stop_lon": -73.976215
+  },
+  {
+    "stop_id": 84,
+    "stop_code": "",
+    "stop_name": "Lexington Ave & East 37th St",
+    "stop_lat": 40.748381,
+    "stop_lon": -73.978367
+  },
+  {
+    "stop_id": 85,
+    "stop_code": "",
+    "stop_name": "East 34th St & Lexington Ave",
+    "stop_lat": 40.746155,
+    "stop_lon": -73.979393
+  },
+  {
+    "stop_id": 86,
+    "stop_code": "",
+    "stop_name": "East 34th Street Ferry Terminal",
+    "stop_lat": 40.743676,
+    "stop_lon": -73.971676
+  },
+  {
+    "stop_id": 87,
+    "stop_code": 2319811,
+    "stop_name": "Wall St/Pier 11",
+    "stop_lat": 40.703052,
+    "stop_lon": -74.006057
+  },
+  {
+    "stop_id": 88,
+    "stop_code": 2319813,
+    "stop_name": "Rockaway",
+    "stop_lat": 40.584228,
+    "stop_lon": -73.831596
+  },
+  {
+    "stop_id": 89,
+    "stop_code": 2319818,
+    "stop_name": "Astoria",
+    "stop_lat": 40.77172,
+    "stop_lon": -73.935714
+  },
+  {
+    "stop_id": 90,
+    "stop_code": 2319820,
+    "stop_name": "Long Island City",
+    "stop_lat": 40.74842,
+    "stop_lon": -73.957725
+  },
+  {
+    "stop_id": 103,
+    "stop_code": "",
+    "stop_name": "Rockaway Beach Blvd & Beach 67th St",
+    "stop_lat": 40.590691,
+    "stop_lon": -73.79631
+  },
+  {
+    "stop_id": 104,
+    "stop_code": "",
+    "stop_name": "Rockaway Beach Blvd & Beach 96th St",
+    "stop_lat": 40.58543,
+    "stop_lon": -73.8179
+  },
+  {
+    "stop_id": 105,
+    "stop_code": "",
+    "stop_name": "Rockaway Beach Blvd & Beach 77th St",
+    "stop_lat": 40.58835,
+    "stop_lon": -73.80447
+  },
+  {
+    "stop_id": 107,
+    "stop_code": "",
+    "stop_name": "Madison Ave & East 41st St",
+    "stop_lat": 40.752068,
+    "stop_lon": -73.979817
+  },
+  {
+    "stop_id": 108,
+    "stop_code": "",
+    "stop_name": "Madison Ave & East 44th St",
+    "stop_lat": 40.754007,
+    "stop_lon": -73.978385
+  },
+  {
+    "stop_id": 111,
+    "stop_code": "",
+    "stop_name": "Gov. Island/Yankee Pier",
+    "stop_lat": 40.68664,
+    "stop_lon": -74.016482
+  },
+  {
+    "stop_id": 112,
+    "stop_code": "",
+    "stop_name": "Soundview",
+    "stop_lat": 40.804202,
+    "stop_lon": -73.848703
+  },
+  {
+    "stop_id": 113,
+    "stop_code": "",
+    "stop_name": "East 90th St",
+    "stop_lat": 40.777475,
+    "stop_lon": -73.942172
+  },
+  {
+    "stop_id": 114,
+    "stop_code": "",
+    "stop_name": "Stuyvesant Cove",
+    "stop_lat": 40.731979,
+    "stop_lon": -73.972922
+  },
+  {
+    "stop_id": 115,
+    "stop_code": "",
+    "stop_name": "Corlears Hook",
+    "stop_lat": 40.710159,
+    "stop_lon": -73.979244
+  },
+  {
+    "stop_id": 118,
+    "stop_code": 2319814,
+    "stop_name": "Sunset Park/BAT",
+    "stop_lat": 40.646276,
+    "stop_lon": -74.026436
+  },
+  {
+    "stop_id": 120,
+    "stop_code": "",
+    "stop_name": "Brooklyn Navy Yard",
+    "stop_lat": 40.701917,
+    "stop_lon": -73.973617
+  },
+  {
+    "stop_id": 131,
+    "stop_code": "",
+    "stop_name": "Madison Ave & East 49th St",
+    "stop_lat": 40.757237,
+    "stop_lon": -73.976045
+  },
+  {
+    "stop_id": 132,
+    "stop_code": "",
+    "stop_name": "East 50th St & Lexington Ave",
+    "stop_lat": 40.75651,
+    "stop_lon": -73.972374
+  },
+  {
+    "stop_id": 133,
+    "stop_code": "",
+    "stop_name": "East 50th St & Madison Ave",
+    "stop_lat": 40.757851,
+    "stop_lon": -73.975573
+  },
+  {
+    "stop_id": 136,
+    "stop_code": "",
+    "stop_name": "Battery Park City/Vesey St.",
+    "stop_lat": 40.715029,
+    "stop_lon": -74.017775
+  },
+  {
+    "stop_id": 137,
+    "stop_code": "",
+    "stop_name": "St. George",
+    "stop_lat": 40.646111,
+    "stop_lon": -74.074171
+  },
+  {
+    "stop_id": 138,
+    "stop_code": "",
+    "stop_name": "Midtown West/W 39th St-Pier 79",
+    "stop_lat": 40.760282,
+    "stop_lon": -74.004088
+  },
+  {
+    "stop_id": 141,
+    "stop_code": "",
+    "stop_name": "Ferry Point Park",
+    "stop_lat": 40.805455,
+    "stop_lon": -73.837305
+  },
+  {
+    "stop_id": 142,
+    "stop_code": "",
+    "stop_name": "Rockaway Beach Boulevard/B. 102nd Street",
+    "stop_lat": 40.583854,
+    "stop_lon": -73.823543
+  }
+]

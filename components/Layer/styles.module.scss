@@ -1,0 +1,67 @@
+@import "variables";
+@import "mixins";
+
+.airmarker {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 2px solid #000;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  &_point {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    z-index: -1;
+  }
+}
+
+.bikemarker {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  &_point {
+    width: 7px;
+    height: 7px;
+    background-color: #ff3a3a;
+    border-radius: 100%;
+    z-index: -1;
+  }
+}
+
+.ferrymarker {
+  background-color: #283a9e;
+  width: 41px;
+  height: 41px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  span {
+    position: relative;
+    top: -1px;
+  }
+}
+.cruisemarker {
+  background-color: #5cd6ff;
+  width: 41px;
+  height: 41px;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.popup {
+  text-align: left;
+  &_title {
+    margin-bottom: 10px;
+  }
+}
