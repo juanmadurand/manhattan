@@ -24,23 +24,22 @@ const ITEMS = [
   },
 ];
 
-const LayerNav = ({ onSelect, layers }) => {
-  return (
-    <div className={`${st.layernav} flex`}>
-      {ITEMS.map(item => (
-        <li
-          className={`${st.layernavitem} flex flex-col items-center ${
-            layers.includes(item.id) ? st.selected : ''
-          }`}
-          onClick={() => onSelect(item.id)}
-          key={`nav_item_${item.label}`}
-        >
-          {item.icon}
-          <div>{item.label}</div>
-        </li>
-      ))}
-    </div>
-  );
-};
+const LayerNav = ({ onSelect, layers }) => (
+  <div className={`${st.layernav} flex`}>
+    {ITEMS.map(item => (
+      <li
+        className={`${st.layernavitem} flex flex-col items-center ${
+          layers.includes(item.id) ? `${st.selected} selected` : ''
+        }`}
+        onClick={() => onSelect(item.id)}
+        key={`nav_item_${item.label}`}
+        data-test={`nav-${item.id}`}
+      >
+        {item.icon}
+        <div>{item.label}</div>
+      </li>
+    ))}
+  </div>
+);
 
 export default LayerNav;

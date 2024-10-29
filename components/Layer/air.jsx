@@ -14,7 +14,10 @@ const PopupMessage = ({ onClose, ...point }) => {
       offset={25}
       className={st.popup}
     >
-      <div className={`${st.popup_title} color-indicator-${point.indicator.name} text-center`}>
+      <div
+        className={`${st.popup_title} color-indicator-${point.indicator.name} text-center`}
+        data-test="popup-air"
+      >
         {point.indicator.description}
       </div>
       <div>Humidity: {point.humidity}%</div>
@@ -76,6 +79,7 @@ const AirLayer = ({ zoom }) => {
           >
             <div
               className={`${fullMarker ? st.airmarker : st.airmarker_point} bg-${indicator?.name}`}
+              data-test="marker-air"
             >
               {fullMarker && point.aqi}
             </div>

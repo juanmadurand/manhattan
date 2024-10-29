@@ -5,7 +5,12 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['next/core-web-vitals', 'eslint:recommended', 'plugin:react/recommended'],
+  extends: [
+    'next/core-web-vitals',
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:cypress/recommended',
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

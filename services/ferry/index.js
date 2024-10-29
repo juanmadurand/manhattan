@@ -29,7 +29,6 @@ async function _getTrips() {
     const buffer = await response.arrayBuffer();
     const feed = GtfsRealtimeBindings.transit_realtime.FeedMessage.decode(new Uint8Array(buffer));
 
-    // return feed.toJSON();
     return feed
       .toJSON()
       .entity.map(entity => {

@@ -6,7 +6,10 @@ import st from './styles.module.scss';
 const CruiseMarker = ({ latitude, longitude, onClick }) => {
   return (
     <Marker latitude={latitude} longitude={longitude} onClick={onClick}>
-      <div className={`${st.cruisemarker} flex items-center justify-center`}>
+      <div
+        className={`${st.cruisemarker} flex items-center justify-center`}
+        data-test="marker-cruise"
+      >
         <span className="material-symbols-outlined">directions_boat</span>
       </div>
     </Marker>

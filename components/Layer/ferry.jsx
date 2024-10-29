@@ -58,7 +58,10 @@ const FerryLayer = () => {
               setPopupInfo(point);
             }}
           >
-            <div className={`${st.ferrymarker} flex items-center justify-center`}>
+            <div
+              className={`${st.ferrymarker} flex items-center justify-center`}
+              data-test="ferry-air"
+            >
               <span className="material-symbols-outlined">sailing</span>
             </div>
           </Marker>

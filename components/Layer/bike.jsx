@@ -60,7 +60,7 @@ const BikeLayer = ({ zoom }) => {
       `;
         return (
           <Marker
-            key={`${point.latitude}${point.longitude}_air`}
+            key={`${point.latitude}${point.longitude}_bike`}
             latitude={point.latitude}
             longitude={point.longitude}
             onClick={e => {
@@ -71,7 +71,7 @@ const BikeLayer = ({ zoom }) => {
             }}
           >
             {zoom >= 13 ? (
-              <div className={st.bikemarker} style={{ background }}>
+              <div className={st.bikemarker} style={{ background }} data-test="marker-bike">
                 <span className="material-symbols-outlined">pedal_bike</span>
               </div>
             ) : (
