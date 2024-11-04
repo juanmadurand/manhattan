@@ -8,5 +8,6 @@ module.exports = defineConfig({
   },
   env: {
     use_mocks: true,
+    baseUrl: 'http://localhost:3000',
   },
 });

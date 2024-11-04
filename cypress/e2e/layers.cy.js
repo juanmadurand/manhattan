@@ -7,7 +7,7 @@ describe('Layer toggling', () => {
       cy.intercept('GET', '/api/weather', { fixture: 'weather.json' }).as('getData');
     }
 
-    cy.visit('http://localhost:3000');
+    cy.visit(Cypress.env('baseUrl'));
   });
 
   it('should display air layer by default', () => {
