@@ -1,13 +1,13 @@
-@import "variables";
-@import "mixins";
+@use "vars";
+@use "mixins";
 
 .layernav {
   padding: 10px;
-  height: $bottom-nav-height;
+  height: vars.$bottom-nav-height;
   gap: 10px;
   list-style-type: none;
 
-  @include for-desktop {
+  @include mixins.for-desktop {
     justify-content: center;
   }
 }

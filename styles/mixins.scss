@@ -1,8 +1,8 @@
-@import "variables";
+@use "vars";
 
 @mixin for-mobile { // < 769
-  @media (max-width: $breakpointTablet) { @content; }
+  @media (max-width: vars.$breakpointTablet) { @content; }
 }
 @mixin for-desktop { // > 769 (includes tablets)
-  @media (min-width: $breakpointTablet) { @content; }
+  @media (min-width: vars.$breakpointTablet) { @content; }
 }
