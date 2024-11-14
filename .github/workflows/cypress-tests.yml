@@ -27,9 +27,10 @@ jobs:
           path: |
             ~/.npm
             ${{ github.workspace }}/.next/cache
-          key: ${{ runner.os }}-njs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx') }}
+          key: ${{ runner.os }}-njs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.[jt]s', '**/*.[jt]sx') }}
           restore-keys: |
             ${{ runner.os }}-njs-${{ hashFiles('**/package-lock.json') }}-
+            ${{ runner.os }}-njs-
         
       - name: Cypress run
         uses: cypress-io/github-action@v6
